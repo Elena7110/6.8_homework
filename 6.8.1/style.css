@@ -4,7 +4,8 @@ section{
 	left: 50%;
 	text-align: center;
 	transform: translate(-50%, -50%);
-	background-color: rgb(200, 183, 251);
+	background-color: rgb(149, 213, 255);
+	color: rgb(101, 166, 193);
 	width: 100%;
 }
 

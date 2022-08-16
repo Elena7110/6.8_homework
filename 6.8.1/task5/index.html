@@ -1,22 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>JS-Start. 3 задача</title>
+<html lang="en"><!--атрибут lang определяет язык содержимого элемента.-->
+
+<head><!--метаданные-->
+	<meta charset="UTF-8"><!--атрибут / параметр charset (от англ. "charset" ‒ «кодировка») указывает кодировку символов, используемую в документе. UTF-8 - одна из общепринятых и стандартизированных кодировок текста, поддерживающая множество различных письменностей.-->
+	<title>JS-Start. 3 задача</title><!--определяет заголовок документа, который отображается в заголовке окна браузера или на вкладке страницы.-->
+	<link rel="stylesheet" type="text/css" href="style.css"><!--подключение файла стилей-->
 </head>
-<body>
-<form action="#" name = "formText">
-    <label>
-        Текст
-        <input type="text" name = "message" placeholder="Введите текст">
-    </label>
-    <button type="submit">
-        Вывести текст в консоль и удалить из формы
-    </button>
-</form>
-<hr>
-<p>Введенный текст:</p>
-<p id="duplicateField"></p>
-<script src="script.js"></script>
+
+<body><!--тело документа-->
+	<section>
+		<form action="#" name="formText">
+			<label>
+				Текст
+				<input id="text" type="text" name="message" placeholder="Введите текст">
+			</label>
+			<button type="submit">
+				Вывести текст в консоль и удалить из формы
+			</button>
+		</form>
+		<hr>
+		<p>Введенный текст:</p>
+		<p id="duplicateField"></p>
+	</section>
+	<script src="script.js"></script>
 </body>
+
 </html>

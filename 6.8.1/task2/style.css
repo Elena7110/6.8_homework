@@ -1,0 +1,12 @@
+section{
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	text-align: center;
+	transform: translate(-50%, -50%);
+}
+
+#consoleLog, #alert, #prompt{
+	background-color: rgb(149, 213, 255);
+	font-size: 20px;
+}

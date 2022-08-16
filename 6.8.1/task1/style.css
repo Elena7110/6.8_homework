@@ -4,7 +4,8 @@ p{
 	left: 50%;
 	text-align: center;
 	transform: translate(-50%, -50%);
-	background-color: rgb(226, 216, 255);
+	background-color: rgb(149, 213, 255);
+	color: rgb(81, 134, 156);
 	width: 100%;
 	font-size: 50px;
 }

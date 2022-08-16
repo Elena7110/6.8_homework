@@ -7,12 +7,8 @@ addEventListener("keypress", (e) => {
 });
 
 Button.addEventListener('click', (e) => {
+	console.log(message.value);
 	duplicateField.textContent = " ";
-	document.forms.formText.reset() ; //- команда очищает и форму и консоль
+	message.value = " ";
+	e.preventDefault();
 });
-
-// document.forms.formText.onsubmit = function () {
-	// const message = this.message.value;
-	console.log(message);
-	// return false;
-// };

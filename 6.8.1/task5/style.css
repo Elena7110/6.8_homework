@@ -1,0 +1,21 @@
+section{
+	position: absolute;
+	padding: 30px;
+	top: 30%;
+	left: 50%;
+	text-align: center;
+	transform: translate(-50%, -50%);
+	background-color: rgb(149, 213, 255);
+	color: rgb(79, 126, 147);
+	width: 100%;
+}
+
+button {
+	-webkit-appearance: none;
+		-moz-appearance: none;
+			  appearance: none;
+	border: 2px solid rgb(79, 126, 147);
+	border-radius: 50px;
+	background:  rgb(149, 213, 255);
+	color: rgb(79, 126, 147);
+ }
